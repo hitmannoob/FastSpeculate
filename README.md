@@ -1,0 +1,2 @@
+I replaced Medusa's trained decoding heads with n-gram dictionary lookups while keeping its tree attention verification mechanism. The result is a training-free speculative decoding system that beats Prompt Lookup Decoding on tasks with highly repetitive syntax in both input and output contexts. This blog dives deep into the implementation.
+Link - https://medium.com/@deepshbansal491/n-gram-tree-speculative-decoding-replacing-medusa-heads-with-n-gram-dictionaries-for-faster-code-74eef84bdebe
